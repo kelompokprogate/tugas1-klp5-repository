@@ -19,6 +19,15 @@ a {
   text-decoration: none;
 }
 
+#menu {
+    background-color: rgba(28, 43, 75, 1);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 70px;
+}
+
 .clear {
   clear: left;
 }
@@ -60,15 +69,6 @@ a {
 
 .signup {
   background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -182,21 +182,21 @@ header {
   font-weight: normal;
 }
 
-.message-wrapper {
+.galeri-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
   background-color: #5dca88;
 }
 
-.message {
+.galeri {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
 }
 
-.message:active {
+.galeri:active {
   position: relative;
   top: 7px;
   box-shadow: none;
@@ -217,6 +217,20 @@ footer {
   background-color: #5f5d60;
 }
 
+/* css pesan */
+.pesan {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #b3aeb5;
+  text-align: center;
+}
+
+.pesan tr, td {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 /* Ketik code Anda dibawah */
 span.menu-icon {
   color: white;
@@ -225,4 +239,3 @@ span.menu-icon {
   padding: 21px 0;
   display: none;
 }
-H
