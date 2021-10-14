@@ -54,3 +54,51 @@
     text-align: center;
   }
 }
+
+/* Responsive */
+@media screen and(max-width: 600px)
+{
+  .column
+  {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+  max-width: 300px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 40px;
+  padding-bottom: 10px;
+}
+
+.title {
+  color: gray;
+  font-size: 15px
+}
+
+button {
+  border: none;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+a:hover, button:hover {
+  opacity: 0.6;
+}
