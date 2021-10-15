@@ -12,6 +12,11 @@
     width: 50%;
     margin-bottom: 50px;
   }
+
+  .columnn {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -47,6 +52,10 @@
   }
   
   .lesson {
+    width: 100%;
+  }
+
+  .columnn {
     width: 100%;
   }
   
