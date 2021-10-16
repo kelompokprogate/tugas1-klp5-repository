@@ -135,6 +135,12 @@ header {
   padding: 0px 10px;
 }
 
+.column img {
+  height : 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
 .row::after {
   content: "";
   display: table;
