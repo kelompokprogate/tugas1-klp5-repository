@@ -186,6 +186,7 @@ header {
 .lesson-icon img {
   width: 100%;
   height: 200px;
+  border-radius: 30%;
 }
 
 .lesson-icon p {
